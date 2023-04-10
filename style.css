@@ -1,0 +1,107 @@
+body {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+
+
+a {
+    text-decoration: none;
+    color: hsl(233, 8%, 62%);
+    margin-right: 1rem;
+}
+
+h1 {
+    font-weight: 400;
+    color: hsl(233, 26%, 24%);
+    margin: 0 0 1rem 0;
+}
+
+.landingHeader {
+    font-size: 3em;
+}
+
+.navContainer {
+    background-color: rgb(255, 255, 255);
+    min-height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+  }
+  
+  .linksContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    margin-left: 11rem;
+    gap: 1rem;
+  }
+  
+  .logo {
+    position: absolute;
+    left: 7rem;
+  }
+  
+  .invBtn {
+    color: white;
+    min-height: 2.5em;
+    width: 10rem;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(35, 211, 153);
+    font-size: 1rem;
+    cursor: pointer;
+    position: relative;
+    right: 8rem;
+ }
+  
+  .buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+.invBtn2 {
+    color: white;
+    min-height: 2.5em;
+    width: 10rem;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(35, 211, 153);
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+.landingContainer {
+    background-color: blueviolet;
+    min-height: 35rem;
+    display: flex;
+}
+
+.leftSide {
+    width: 29rem;
+    padding: 10rem 0 0 6.5rem;
+}
+
+.landingSec {
+    line-height: 1.75rem;
+    color: hsl(233, 8%, 62%);
+}
+
+.bgContainer {
+    width: 35rem;
+    margin-left: 15rem;
+    z-index: 50;
+
+}
+
+.bgDesktop {
+    width: 250%;
+    margin: -5rem 0 -4.5rem -10rem;
+    z-index: 50;
+
+}
