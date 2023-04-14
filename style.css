@@ -4,7 +4,6 @@ body {
     margin: 0;
 }
 
-
 a {
     text-decoration: none;
     color: hsl(233, 8%, 62%);
@@ -28,6 +27,7 @@ h1 {
     justify-content: center;
     align-items: center;
     z-index: 100;
+    position: relative;
   }
   
   .linksContainer {
@@ -50,7 +50,7 @@ h1 {
     width: 10rem;
     border: none;
     border-radius: 20px;
-    background-color: rgb(35, 211, 153);
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(212, 83%, 67%));
     font-size: 1rem;
     cursor: pointer;
     position: relative;
@@ -70,7 +70,7 @@ h1 {
     width: 10rem;
     border: none;
     border-radius: 20px;
-    background-color: rgb(35, 211, 153);
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(212, 83%, 67%));
     font-size: 1rem;
     cursor: pointer;
     margin-top: 2rem;
@@ -84,7 +84,7 @@ h1 {
 
 .leftSide {
     width: 29rem;
-    padding: 10rem 0 0 6.5rem;
+    padding: 10rem 0 0 7rem;
 }
 
 .landingSec {
@@ -100,8 +100,9 @@ h1 {
 }
 
 .bgDesktop {
-    width: 250%;
-    margin: -5rem 0 -4.5rem -10rem;
+    width: 100%;
+    margin: -18rem 0 -4.5rem -10rem;
     z-index: 50;
+    position: absolute;
 
 }
